@@ -87,6 +87,7 @@ class _HomePageViewState extends State<HomePageView> {
                         color: Color.fromARGB(255, 255, 200, 0), fontSize: 20),
                   )),
                 ),
+                onTap: () => {Navigator.popAndPushNamed(context, '/dificult')},
               ),
             ),
             const SizedBox(
