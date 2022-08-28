@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:programming_quiz/view/dificult_game_view.dart';
 
 import 'view/login_view.dart';
 
@@ -22,6 +23,8 @@ class MyApp extends StatelessWidget {
         initialRoute: HomePageView.routeName,
         routes: {
           HomePageView.routeName: (context) => const HomePageView(),
+          DificultGamePageView.routeName: (context) =>
+              const DificultGamePageView(),
         });
   }
 }
